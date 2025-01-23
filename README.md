@@ -96,7 +96,24 @@ Further, a PCB was designed for this circuitry. The microcontroller was changed 
 <img src="https://github.com/user-attachments/assets/bd98d64f-f3b8-4ed9-82e5-6e3099705414" width="600">
 
 ## File structure
-
+```
+.
+│   LICENSE                                           # Contains the licensing information for the project                 
+│   README.md                                         # General information about the project
+│
+├───hardware                                          
+│   ├───datasheets                                    # Folder containing datasheets for various components
+│   │
+│   └───pcb-gerber-files                              # Gerber files used for PCB manufacturing
+│
+├───lib                                               # Directory containing library files used in projects
+│       BMP180_Breakout_Arduino_Library-master.zip    # SparkFun's BMP 180 library
+│       I2Cdev.zip                                    # Library provides support for I2C communication
+│       MPU6050.zip                                   # MPU6050 Sensor Library
+│
+└───src                                                
+        flight-computer.ino                           # Main Arduino sketch for the science task implementation
+```
 ## Contributors
 - [Brajesh Patil](https://github.com/BrajeshPatil)
 - [Karteek Nayak](https://github.com/Karteek-N)
