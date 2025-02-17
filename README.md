@@ -1,5 +1,5 @@
 # rocket-flight-computer
-The project involves developing a low-cost, open-source, multi-purpose flight computer designed specifically for model rockets. This platform will be capable of logging flight data, including acceleration and rotation, performing basic atmospheric measurements, and providing a foundation for implementing an active stability system. It aims to deliver an accessible avionics and data logging solution for hobbyists and enthusiasts.
+The project involves developing a low-cost, open-source, multi-purpose flight computer designed specifically for model rockets. This platform will be capable of logging flight data, including acceleration and rotation, performing basic atmospheric measurements, and providing a foundation for implementing an active stability system.
 
 ### Hardware Interfacing
 <img src="https://github.com/user-attachments/assets/b24a9e34-9494-474a-ae65-679b7b1727cb" width="600">
